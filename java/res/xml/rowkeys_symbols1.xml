@@ -2,12 +2,12 @@
 <merge
   xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
     <include latin:keyboardLayout="@xml/keys_curly_brackets" />
-    <Key latin:keySpec="~" />    
-    <Key latin:keySpec="|" />	
-	<Key latin:keySpec="\\" />
+    <Key latin:keySpec="~" />
+    <Key latin:keySpec="|" />
+    <Key latin:keySpec="\\" />
     <Key latin:keySpec="=" />
     <Key latin:keySpec="÷" />
     <Key latin:keySpec="×" />
-	<Key latin:keySpec="[" />
+    <Key latin:keySpec="[" />
     <Key latin:keySpec="]" />
 </merge>
