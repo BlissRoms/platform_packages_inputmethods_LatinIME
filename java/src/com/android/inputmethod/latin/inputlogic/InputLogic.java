@@ -1151,7 +1151,12 @@ public final class InputLogic {
                     }
                     final int lengthToDelete =
                             Character.isSupplementaryCodePoint(codePointBeforeCursor) ? 2 : 1;
-                    mConnection.deleteTextBeforeCursor(lengthToDelete);
+//                  mConnection.deleteTextBeforeCursor(lengthToDelete);
+                    if (lengthToDelete == 1) {
+                        sendDownUpKeyEvent(KeyEvent.KEYCODE_DEL);
+                    }else{
+                        mConnection.deleteTextBeforeCursor(lengthToDelete);
+                    }
                     int totalDeletedLength = lengthToDelete;
                     if (mDeleteCount > Constants.DELETE_ACCELERATE_AT) {
                         // If this is an accelerated (i.e., double) deletion, then we need to
