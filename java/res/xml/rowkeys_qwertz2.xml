@@ -2,7 +2,7 @@
 <!--
 /*
 **
-** Copyright 2014, The Android Open Source Project
+** Copyright 2012, The Android Open Source Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -23,18 +23,14 @@
 >
     <Key
         latin:keySpec="a"
-        latin:keyHintLabel="\@"
-        latin:additionalMoreKeys="\\@"
         latin:moreKeys="!text/morekeys_a" />
     <Key
         latin:keySpec="s"
-        latin:keyHintLabel="#"
-        latin:additionalMoreKeys="#"
         latin:moreKeys="!text/morekeys_s" />
     <Key
         latin:keySpec="d"
-        latin:keyHintLabel="$"
-        latin:additionalMoreKeys="$"
+        latin:keyHintLabel="€"
+        latin:additionalMoreKeys="€"
         latin:moreKeys="!text/morekeys_d" />
     <Key
         latin:keySpec="f"
@@ -45,4 +41,24 @@
         latin:keyHintLabel="&amp;"
         latin:additionalMoreKeys="&amp;"
         latin:moreKeys="!text/morekeys_g" />
+    <Key
+        latin:keySpec="h"
+        latin:keyHintLabel="-"
+        latin:additionalMoreKeys="-"
+        latin:moreKeys="!text/morekeys_h" />
+    <Key
+        latin:keySpec="j"
+        latin:keyHintLabel="+"
+        latin:additionalMoreKeys="+"
+        latin:moreKeys="!text/morekeys_j" />
+    <Key
+        latin:keySpec="k"
+        latin:keyHintLabel="("
+        latin:additionalMoreKeys="("
+        latin:moreKeys="!text/morekeys_k" />
+    <Key
+        latin:keySpec="l"
+        latin:keyHintLabel=")"
+        latin:additionalMoreKeys=")"
+        latin:moreKeys="!text/morekeys_l" />
 </merge>
