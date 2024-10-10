@@ -80,10 +80,16 @@ cc_prebuilt_library_shared {
     },
     target: {
         android_arm: {
-            srcs: ["assets/lib/libjni_latinimegoogle.so"],
+            srcs: ["assets/arm/libjni_latinimegoogle.so"],
         },
         android_arm64: {
-            srcs: ["assets/lib64/libjni_latinimegoogle.so"],
+            srcs: ["assets/arm64/libjni_latinimegoogle.so"],
+        },
+        android_x86: {
+            srcs: ["assets/x86/libjni_latinimegoogle.so"],
+        },
+        android_x86_64: {
+            srcs: ["assets/x86_64/libjni_latinimegoogle.so"],
         },
     },
     product_specific: true,
